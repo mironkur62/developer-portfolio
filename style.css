@@ -15,7 +15,10 @@ h1{
 .paragraph{
     width: 50%;
     padding: 3%;
-}
+   }
+   h2{
+       font-size: 40px;
+   }
 .paragraph img{
     width: 80%;
 }
@@ -35,4 +38,31 @@ h1{
     background-image: url(IMAGES/dream-bg.png);   
     background-repeat: no-repeat; 
     background-position: right;
+}
+.recomended{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+   
+}
+.recommended-anime{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#erased{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#onepunchman{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
